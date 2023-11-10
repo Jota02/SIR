@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(8,15,40,.8),rgba(8,15,40,.9)),url("/SIR/img/background.jpg");
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo {
+   width: 100px;
+   height: 100px;
+}
+
+.search-bar {
+    width: 50px;
+}
