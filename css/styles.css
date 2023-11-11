@@ -3,6 +3,10 @@ body {
     height: 100%;
 }
 
+nav li{
+    font-weight: bold;
+}
+
 .hero {
     background-image: linear-gradient(rgba(8,15,40,.8),rgba(8,15,40,.9)),url("/SIR/img/background.jpg");
     background-color: #fafafa;
@@ -20,3 +24,4 @@ body {
 .search-bar {
     width: 50px;
 }
+
