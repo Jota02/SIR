@@ -25,3 +25,18 @@ nav li{
     width: 50px;
 }
 
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(128, 128, 128, 0.5);
+}
+.team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
