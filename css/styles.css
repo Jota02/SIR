@@ -3,9 +3,15 @@ body {
     height: 100%;
 }
 
+.page {
+    padding: 6rem 0;
+}
+
 nav li{
     font-weight: bold;
 }
+
+/* Hero */
 
 .hero {
     margin-top: 5rem;
@@ -23,8 +29,20 @@ nav li{
 }
 
 .search-bar {
-    width: 50px;
+    width: 10rem;
 }
+
+/* About */
+
+hr.divider{
+    height: 0.3rem;
+    max-width: 4rem;
+    margin: 1.5rem auto;
+    background-color: white;
+    opacity: 0.75;
+}
+
+/* Team */
 
 .team-member {
     margin-bottom: 3rem;
@@ -41,14 +59,13 @@ nav li{
     margin-bottom: 0;
 }
 
-.page {
-    padding: 6rem 0;
-}
+/* Form */
 
 .form input{
   padding: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .form-message input{
-  min-height: 12.5rem;
+  min-height: 13.5rem;
 }
