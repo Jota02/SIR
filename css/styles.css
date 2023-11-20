@@ -20,6 +20,11 @@ nav li{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    
+    .bar-size {
+        width: 30rem;
+        align-items: center;
+    }
 }
 
 /* About */
