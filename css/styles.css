@@ -15,15 +15,31 @@ nav li{
 .hero {
     height: 100%;
     padding-top: 10rem;
-    background-image: linear-gradient(rgba(8,15,40,.8),rgba(8,15,40,.9));
+    background-image: url(/SIR/img/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
     
     .bar-size {
-        width: 30rem;
-        align-items: center;
+        width: 60%;
     }
 }
 
