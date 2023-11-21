@@ -5,6 +5,7 @@ body {
 
 .page {
     padding: 6rem 0;
+    background: linear-gradient(to right, #ebebeb, #bdbebd);
 }
 
 nav li{
@@ -14,8 +15,8 @@ nav li{
 /* Hero */
 .hero {
     height: 100%;
-    padding-top: 10rem;
-    background-image: url(/SIR/img/background.jpg);
+    padding-top: 15rem;
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -43,7 +44,6 @@ nav li{
     }
 }
 
-/* About */
 hr.divider{
     height: 0.3rem;
     max-width: 4rem;
@@ -56,7 +56,7 @@ hr.divider{
 .team-member {
     margin-bottom: 3rem;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 .team-member img {
     width: 14rem;
@@ -64,7 +64,7 @@ hr.divider{
     border: 0.5rem solid rgba(128, 128, 128, 0.5);
 }
 .team-member h4, .team-member .h4 {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-bottom: 0;
 }
 
@@ -75,5 +75,5 @@ hr.divider{
 }
 
 .form-message input{
-  min-height: 13.5rem;
+  min-height: 14rem;
 }
