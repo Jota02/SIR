@@ -4,8 +4,8 @@ body {
 }
 
 .page {
-    padding: 6rem 0;
-    background: linear-gradient(to right, #eeeeee, #bdbebd);
+    padding: 6rem;
+    background: radial-gradient(circle, rgba(15,133,171,1) 46%, rgba(9,4,107,1) 82%);
 }
 
 nav li{
@@ -51,6 +51,18 @@ hr.divider{
     background-color: white;
     opacity: 0.75;
 }
+
+/*Section break*/
+.break {
+    padding: 2rem;
+    background-size: cover;
+    background-color: black;
+
+    .resize{
+        height: 2.5rem;
+    }
+}
+
 
 /* Team */
 .team-member {
