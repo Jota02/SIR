@@ -4,7 +4,10 @@ body {
 }
 
 .page {
-    padding: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     background: radial-gradient(circle, rgba(15,133,171,1) 46%, rgba(9,4,107,1) 82%);
 }
 
