@@ -61,10 +61,6 @@ hr.divider{
     padding: 2rem;
     background-size: cover;
     background-color: black;
-
-    .resize{
-        height: 2.5rem;
-    }
 }
 
 
